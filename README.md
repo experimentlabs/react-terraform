@@ -10,6 +10,7 @@ hooks                          Commit hooks setup
 validate                       Validate with pre-commit hooks
 changelog                      Update Changelog
 release                        Create release tag
-run                            Run website locally 
+run                            Run website locally
+deploy                         Deploy to S3 bucket 
 ```
 <!-- END makefile-doc -->

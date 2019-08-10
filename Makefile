@@ -24,3 +24,6 @@ release: ## Create release tag
 
 run: ## Run website locally
 	@cd website && yarn start
+
+deploy: ## Deploy to S3 bucket
+	@cd website && yarn deploy
