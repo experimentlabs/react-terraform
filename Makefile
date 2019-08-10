@@ -23,4 +23,4 @@ release: ## Create release tag
 	semtag final -s minor
 
 run: ## Run website locally
-	@cd website && yarn run
+	@cd website && yarn start
