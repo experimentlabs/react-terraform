@@ -15,3 +15,12 @@ hooks: ## Commit hooks setup
 
 validate: ## Validate with pre-commit hooks
 	@pre-commit run --all-files
+
+changelog: ## Update Changelog
+	git-chglog -o CHANGELOG.md --next-tag `semtag final -s minor -o`
+
+release: ## Create release tag
+	semtag final -s minor
+
+run: ## Run website locally
+	@cd website && yarn run

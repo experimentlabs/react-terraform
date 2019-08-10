@@ -1,6 +1,6 @@
 provider aws {
-  region  = "${var.region}"
-  version = ">= 2.22.0"
+  region  = var.region
+  version = ">= 2.23.0"
 
   skip_get_ec2_platforms      = true
   skip_metadata_api_check     = true
